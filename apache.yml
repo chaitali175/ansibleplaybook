@@ -22,7 +22,7 @@
     - name: start the apache service
       service: name=apache2 state=started
       
-      - name: Apply Page Template
+    - name: Apply Page Template
       template:
         src: index.html
         dest: /etc/apache2
